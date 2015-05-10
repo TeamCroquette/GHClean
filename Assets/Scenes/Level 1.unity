@@ -1437,7 +1437,7 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 12800000, guid: 59a5800f69f764272a193320f2b229b2, type: 3}
   m_Material: {fileID: 0}
-  m_FontSize: 80
+  m_FontSize: 87
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
@@ -2297,9 +2297,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 317552566dd1ff9488d5d34e0c3ba4f4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3bf6a19f8036f7b4db0eac89fb449276, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .100000001
+  m_Volume: .167999998
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2436,6 +2436,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11400004, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
+      propertyPath: ouchClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
       propertyPath: m_LocalPosition.x
       value: -19.8299999
@@ -2549,6 +2553,14 @@ Prefab:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: fb7b0ae502eaf7944aa6283068db1c3e, type: 3}
+    - target: {fileID: 11400004, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
+      propertyPath: ouchClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6643e78c6ecd7be40b54fb015e2a9c4a, type: 3}
+    - target: {fileID: 11400004, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
+      propertyPath: ouchClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: d5d6c208252b9b04f913b61f26df1523, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
   m_IsPrefabParent: 0
