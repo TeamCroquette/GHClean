@@ -52,7 +52,6 @@
      <Compile Include="Assets\Scripts\BombPickup.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
-     <Compile Include="Assets\Scripts\EndOfLevel1.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\EnemyBoss.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />

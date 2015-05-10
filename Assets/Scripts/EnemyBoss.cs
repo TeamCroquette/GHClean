@@ -61,6 +61,7 @@ public class EnemyBoss : MonoBehaviour
 	public void Hurt()
 	{
 		// Reduce the number of hit points by one.
+		Debug.Log ("passe2");
 		HP--;
 
 	}
