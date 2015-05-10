@@ -39,7 +39,7 @@ public class EnemyBoss : MonoBehaviour
 			if(c.tag == "Obstacle")
 			{
 				// ... Flip the enemy and stop checking the other colliders.
-				Flip ();
+				Flip();
 				break;
 			}
 		}
