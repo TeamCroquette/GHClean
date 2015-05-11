@@ -48,10 +48,11 @@ public class EnemyBoss : MonoBehaviour
 		GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x * moveSpeed, GetComponent<Rigidbody2D>().velocity.y);	
 		
 		// If the enemy has one hit point left and has a damagedEnemy sprite...
-		if(HP == 25	 && damagedEnemy != null)
+		if (HP == 25 && damagedEnemy != null)
+
 			// ... set the sprite renderer's sprite to be the damagedEnemy sprite.
 			ren.sprite = damagedEnemy;
-
+	
 		
 		// If the enemy has zero or fewer hit points and isn't dead yet...
 		if(HP <= 0 && !dead)
